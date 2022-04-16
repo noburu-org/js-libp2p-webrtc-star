@@ -10,4 +10,4 @@ EXPOSE 9090
 #   --port=9090 --host=0.0.0.0 --disableMetrics=false
 # Server logging can be enabled via the DEBUG environment variable:
 #   DEBUG=signalling-server,signalling-server:error
-CMD [ "webrtc-star"]
+CMD [ "webrtc-star", "--port=9090", "--host=0.0.0.0"]
